@@ -20,3 +20,13 @@ function increment(){
 
     countEl.innerText = count;
 }
+
+//initialize
+//listen
+//increment
+//change the value
+
+function decrement(){
+    count -= 1
+    countEl.innerText = count;
+}
