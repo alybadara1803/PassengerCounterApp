@@ -17,3 +17,4 @@ function decrement(){
     count -= 1;
     countEl.innerText = count
 }
+
