@@ -1,6 +1,6 @@
-// let yourName = prompt("Enter your name :")
-// let nameEl = document.getElementById("name-el")
-// nameEl.innerText += yourName
+let yourName = prompt("Enter your name :")
+let nameEl = document.getElementById("name-el")
+nameEl.textContent += " " + yourName
 
 let count = 0
 
