@@ -13,8 +13,14 @@ function increment(){
 }
 
 //decrement function
-function decrement(){
-    count -= 1;
-    countEl.innerText = count
-}
+// function decrement(){
+//     count -= 1;
+//     countEl.innerText = count
+// }
 
+let numberEnteredEl = document.getElementById("numberEntered")
+//function save
+function save(){
+    numberEnteredEl.textContent += count + " - "
+    countEl.innerText = 0
+}
